@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<style>
+    /* navbar */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: white;
+   }
+   /* navbar */
+    #bigblock{
+        height: 70px;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        background-color: white;
+    }
+    #navblock{
+        height: 50px;
+        width: 500px;
+        /* border: 1px solid black; */
+        margin-left: 1035px;
+        display: flex;
+        background-color: white;
+        margin-top: 10px;
+    }
+    .box{
+        height: 30px;
+        width: 120px;
+        /* border: 1px solid black; */
+        margin-top: 10px;
+        padding-left: 10px;
+        background-color: white;
+        font-size: larger;
+    }
+    .link{
+        text-decoration: none;
+        background-color: white;
+    }
+
+
+
+        #p6{
+			height: 500px;
+			width: 100%;
+/*			border: 1px solid;*/
+			display: flex;
+		}
+		#col1{
+			height: 500px;
+			width: 500px;
+/*			border: 1px solid;*/
+            background-color: rgb(228, 208, 199);
+		}
+		#col2{
+			margin-top: 40px;
+		}
+		#t4{
+			width: 300px;
+			/* border: 1px solid; */
+			font-size: 30px;
+			font-family: sans-serif;
+			font-weight: bolder;
+			margin-top: 100px;
+			margin-left: 80px;
+			color: black;
+            background-color:rgb(228, 208, 199);
+		}
+		#t5{
+			width: 300px;
+			/* border: 1px solid; */
+			font-size: 16px;
+			font-family: sans-serif;
+			margin-top: 30px;
+			margin-left: 80px;
+            background-color:rgb(228, 208, 199);
+            color: black;
+		}
+		#t6{
+			width: 300px;
+			/* border: 1px solid; */
+			font-size: 20px;
+			font-family: sans-serif;
+			margin-top: 30px;
+			margin-left: 80px;
+            background-color:rgb(228, 208, 199);
+            color: black;
+		}
+		
+		label{
+			font-family: sans-serif;
+			font-size: 15px;
+		}
+		#sub{
+			padding-left: 270px;
+			padding-top: 7px;
+			padding-bottom: 7px;
+			padding-right: 270px;
+			background-color: rgb(228, 208, 199);
+            border-color: rgb(228, 208, 199);;
+            color: black;
+		}
+		#fname{
+			height:30px ;
+			width: 480px;
+		}
+		#lname{
+			height:30px ;
+			width: 480px;
+		}
+		#email{
+			height:30px ;
+			width: 480px;
+		}
+		tr{
+			height: 60px;
+		}
+		table{
+			margin-left:180px;
+		}
+
+
+        #alllogos{
+        height: 30px;
+        width: 400px;
+        /* border: 1px solid black; */
+        margin-top: 25px;
+        background-color: rgb(228, 208, 199);
+    }
+    #logobox{
+        height: 30px;
+        width: 200px;
+        /* border: 1px solid black; */
+        display: flex;
+        margin-left: 65px;
+        background-color: rgb(228, 208, 199);
+    }
+    .lg{
+        height: 30px;
+        width: 70px;
+        /* border: 1px solid black; */
+        font-size: xx-large;
+        color: black;
+        background-color: rgb(228, 208, 199);
+        padding-left: 15px;
+        padding-top: 3px;
+    }
+    
+</style>
+<body>
+    <nav>
+        <div id="bigblock">
+            <div id="navblock">
+                <div id="home" class="box"><a href="./index.html" class="link" style="color: black;">HOME</a></div>
+                <div id="resume" class="box"><a href="./Resume.html" class="link" style="color: black;">RESUME</a></div>
+                <div id="projects" class="box"><a href="./Project.html" class="link" style="color: black;">PROJECTS</a></div>
+                <div id="contact" class="box"><a href="./Contact.html" class="link" style="color: black;">CONTACT</a></div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div id="p6">
+		<div id="col1">
+			<div id="t4">Get in Touch</div>
+			<div id="t5">Pune, Maharashtra, India.</div>
+			<div id="t6">vibhutevaibhavi10@gmail.com</div>
+
+
+            <div id="alllogos">
+                <div id="logobox">
+                    <div class="lg"><a href="https://github.com/VaibhaviVibhute" style="color: black; background-color: rgb(228, 208, 199);"><i class="fa fa-github" aria-hidden="true"></i></a></div>
+                    <div class="lg"><a href="https://www.linkedin.com/in/vaibhavi-vibhute10/" style="color: black; background-color: rgb(228, 208, 199);"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></div>
+                </div>
+            </div>
+		</div>
+		<div id="col2">
+			<table>
+            <tr>
+                <td><label for="fname">First Name:</label></td>
+                <td><input type="text" id="fname"></td>
+            </tr>
+            <tr>
+                 <td><label for="lname">Last Name:</label></td>
+                <td><input type="text" name="" id="lname"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" name="" id="email"></td>
+            </tr>
+           
+            <tr>
+                <td><label for="add">Message:</label></td>
+                <td><textarea name="" id="add" cols="63" rows="10"></textarea></td>
+            </tr>
+            </table>
+            <table>
+            	<tr>
+                <td colspan="2"><input type="submit" value="Send" id="sub"></td>
+                <!-- <td></td> -->
+            </tr>
+            </table>
+		</div>
+	</div>
+</body>
+</html>

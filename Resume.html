@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: rgb(228, 208, 199);
+   }
+   /* navbar */
+    #bigblock{
+        height: 70px;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        background-color: white;
+    }
+    #navblock{
+        height: 50px;
+        width: 500px;
+        /* border: 1px solid black; */
+        margin-left: 1035px;
+        display: flex;
+        background-color: white;
+        margin-top: 10px;
+    }
+    .box{
+        height: 30px;
+        width: 120px;
+        /* border: 1px solid black; */
+        margin-top: 10px;
+        padding-left: 10px;
+        background-color: white;
+        font-size: larger;
+    }
+    .link{
+        text-decoration: none;
+    }
+
+
+    #main_midbox{
+        height: 3400px;
+        width: 800px;
+        /* border: 1px solid black; */
+        margin-left: 370px;
+        background-color: rgb(228, 208, 199);
+    }
+
+    /* #title{
+        height: 50px;
+        width: 800px;
+        border: 1px solid black;
+        display: flex;
+    }
+    #sq{
+        height: 42px;
+        width: 40px;
+        border: 1px solid black;
+        font-size: 20px;
+        padding-top: 10px;
+        margin-left: 280px;
+    }
+    #restitle{
+        height: 42px;
+        width: 200px;
+        border: 1px solid black;
+        font-size: 40px;
+    } */
+
+
+    /* Education */
+    #Education{
+        height: 50px;
+        width: 800px;
+        /* border: 1px solid black; */
+        display: flex;
+        margin-top: 50px;
+    }
+    #edutitle{
+        height: 40px;
+        width: 250px;
+        /* border: 1px solid black; */
+        font-size: 36px;
+        font-weight: 700;
+    }
+    #dlbtn{
+        height: 40px;
+        width: 190px;
+        /* border: 1px solid black; */
+        background-color: blue;
+        color: white;
+        font-size: 20px;
+        border-radius: 20px;
+        padding-left: 18px;
+        padding-top: 8px;
+        margin-left: 350px;
+    }
+    #a{
+        text-decoration: none;
+    }
+
+
+    .Edubox{
+        height: 380px;
+        width: 800px;
+        /* border: 1px solid black; */
+        background-color: white;
+        padding-top: 20px;
+    }
+    #Edubox1{
+        margin-top: 60px;
+        background-color: white;
+    }
+    #Edubox2{
+        margin-top: 100px;
+        background-color: white;
+    }
+    
+    #inner_box{
+        height: 300px;
+        width: 700px;
+        /* border: 1px solid black; */
+        background-color: white;
+        margin-top: 40px;
+        margin-left: 50px;
+        display: flex;
+    }
+    #left{
+        height: 300px;
+        width: 300px;
+        /* border: 1px solid black; */
+        background-color: white;
+        padding-top: 30px;
+        margin-left: 20px;
+    }
+    #yrs{
+        height: 30px;
+        width: 300px;
+        /* border: 1px solid black; */
+        background-color: white;
+        font-size: 22px;
+        font-weight: 600;
+        color: blue;
+        margin-top: 5px;
+    }
+    #instnm{
+        height: 50px;
+        width: 300px;
+        /* border: 1px solid black; */
+        background-color: white;
+        font-size: 18px;
+        word-spacing: 2px;
+        margin-top: 20px;
+    }
+    #sp{
+        margin-top: 14px;
+        background-color: white;
+        font-size: 17px;
+    }
+    #loc{
+        margin-top: 15px;
+        font-size: 17px;
+        background-color: white;
+    }
+    #right{
+        height: 300px;
+        background-color: white;
+        width: 300px;
+        /* border: 1px solid black; */
+        margin-left: 50px;
+    }
+    #para{
+        font-size: 18px;
+        word-spacing: 3px;
+        background-color: white;
+        line-height: 25px;
+        padding-top: 50px;
+    }
+
+    #instnm1{
+        height: 30px;
+        width: 300px;
+        /* border: 1px solid black; */
+        font-size: 18px;
+        word-spacing: 2px;
+        margin-top: 20px;
+        background-color: white;
+    }
+    #left1{
+        height: 300px;
+        width: 300px;
+        /* border: 1px solid black; */
+        padding-top: 60px;
+        margin-left: 20px;
+        background-color: white;
+    }
+    #para1{
+        background-color: white;
+        font-size: 18px;
+        word-spacing: 3px;
+        line-height: 25px;
+        padding-top: 80px;
+    }
+    
+
+    /* Certification */
+    #certi{
+        height: 50px;
+        width: 800px;
+        /* border: 1px solid black; */
+        display: flex;
+        margin-top: 125px;
+    }
+    #certititle{
+        height: 40px;
+        width: 250px;
+        /* border: 1px solid black; */
+        font-size: 36px;
+        font-weight: 700;
+    }
+    #certi_box{
+        height: 300px;
+        width: 700px;
+        /* border: 1px solid black; */
+        margin-top: 10px;
+        margin-left: 50px;
+        background-color: white;
+    }
+    #certibox{
+        margin-top: 40px;
+    }
+
+    .dd{
+        margin-left: 50px;
+        background-color: white;
+    }
+    #c1{
+        height: 80px;
+        width: 700px;
+        /* border: 1px solid black; */
+        background-color: white;
+        font-size: 20px;
+        line-height: 40px;
+        margin-top: 40px;
+    }
+    #oracle{
+        height:80px;
+        width:700px;
+        /* border: 1px solid black; */
+        background-color: white;
+        font-size: 20px;
+        margin-top: 60px;
+        line-height: 40px;
+    }
+
+
+    /* volunteer */
+    #volunteer{
+        height: 40px;
+        width: 400px;
+        /* border: 1px solid black; */
+        font-size: 36px;
+        font-weight: 700;
+    }
+    #vol_para{
+        font-size: 18px;
+        word-spacing: 3px;
+        line-height: 25px;
+        padding-top: 80px;
+        background-color: white;
+    }
+
+
+    /* tech skill */
+    #list{
+       line-height: 40px;
+       font-size: 18px;
+       background-color: white;
+    }
+    .li{
+        background-color: white;
+    }
+</style>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div id="bigblock">
+            <div id="navblock">
+                <div id="home" class="box"><a href="./index.html" class="link" style="color: black; background-color: white;">HOME</a></div>
+                <div id="resume" class="box"><a href="./Resume.html" class="link" style="color: black; background-color: white;">RESUME</a></div>
+                <div id="projects" class="box"><a href="./Project.html" class="link" style="color: black; background-color: white;">PROJECTS</a></div>
+                <div id="contact" class="box"><a href="./Contact.html" class="link" style="color: black; background-color: white;">CONTACT</a></div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="main_midbox">
+
+        <!-- <div id="title">
+            <div id="sq" class="t1"><i class="fa fa-square" aria-hidden="true"></i></div>
+            <div id="restitle" class="t1">Resume</div>
+        </div> -->
+
+        
+        <div id="Education">
+            <div id="edutitle">Education</div>
+            <a href="./Vaibhavi-Resume.pdf" id="a"><div id="dlbtn">Download Resume</div></a>
+        </div>
+
+
+        <!-- education -->
+        <div class="Edubox" id="Edubox1">
+            <div id="inner_box">
+                <div id="left">
+                    <div id="yrs">2022-2023</div>
+                    <div id="instnm">Qspider's Software Testing & Development Training Institute</div>
+                    <div id="sp">Software Development <br>(Java Full Stack Development)</div>
+                    <div id="loc">Pune,Maharashtra</div>
+                </div>
+                <div id="right">
+                    <p id="para">In the institute I have learn lot's of things related to software's or Programming Languages like Database, Core Java, Web Technologies In that HTML, CSS, JavaScript and Advance Java in deep. 
+        
+                        I can gain Theoretically as well as Practical knowledge about all above subjects.</p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="Edubox" id="Edubox2">
+            <div id="inner_box">
+                <div id="left1">
+                    <div id="yrs">2019-2022</div>
+                    <div id="instnm1">Shivaji University</div>
+                    <div id="sp">Bachelor's Computer Application <br>(BCA)</div>
+                    <div id="loc">Kolhapur,Maharashtra</div>
+                </div>
+                <div id="right">
+                    <p id="para1">At college, I focused on advanced topics in programming related, including C, C++, SQL, .NET, Core Java and Linux systems. I also worked on projects related to Web Designing.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="certi">
+            <div id="certititle">Certification</div>
+        </div>
+
+        <!-- certification -->
+        <div class="Edubox" id="certibox">
+            <div id="certi_box">
+                <div id="c1">
+                   1) C & C++ <br>
+                   <div class="dd">- Disha Computer Institute</div>
+                </div>
+                <div id="oracle">
+                   2) Oracle <br>
+                   <div class="dd">- Disha Computer Institute</div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="certi">
+            <div id="volunteer">Volunteer Experience</div>
+        </div>
+
+        <!-- volunteer -->
+        <div class="Edubox" id="certibox">
+            <div id="inner_box">
+                <div id="left">
+                    <div id="yrs">2022-2023</div>
+                    <div id="instnm">Qspider's Software Testing & Development Training Institute</div>
+                    <div id="sp">Software Development <br>(Java Full Stack Development)</div>
+                    <div id="loc">Pune,Maharashtra</div>
+                </div>
+                <div id="right">
+                    <p id="vol_para">As a Mentor I have taken the Mock Interviews of our juniors and given the ratings as per the performance</p>
+                </div>
+            </div>
+        </div>
+
+
+       <!-- Volunteer -->
+        <div id="certi">
+            <div id="volunteer">Technical Skillset</div>
+        </div>
+
+
+        <div class="Edubox" id="certibox">
+            <div id="inner_box">
+                <ul id="list">
+                    <li class="li"><u class="li"> Programming languages/scripts</u>: Core Java, Advance Java, HTML, CSS, JavaScript, Linux</li>
+                    <li class="li"><u class="li">API's</u>: JDBC, Servlet and JSP</li>
+                    <li class="li"><u class="li">Frameworks</u>: Hibernate with JPA, Spring(Spring IOC, Spring MVC, Spring Boot)</li>
+                    <li class="li"><u class="li">Databases</u>: SQL</li>
+                    <li class="li"><u class="li">Tools</u>: MySQL Workbench, Postman, Eclipse (Enterprise Edition), Visual Studio code, Edit++, GitHub,, Netlify, Railway etc</li>
+                    <li class="li"><u class="li">Web server</u>: Apache Tomcat</li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <!-- Soft Skills -->
+        <div id="certi">
+            <div id="volunteer">Soft-Skill</div>
+        </div>
+
+        <div class="Edubox" id="certibox">
+            <div id="inner_box">
+                <ul id="list">
+                    <li class="li">Leadership</li>
+                    <li class="li">Team Player</li>
+                    <li class="li">Adaptability</li>
+                    <li class="li">Problem Solving</li>
+                    <li class="li">Atttention to Detail</li>
+                    <li class="li">Analytical & Logical Thinking</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

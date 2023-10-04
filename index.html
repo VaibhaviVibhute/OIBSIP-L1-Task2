@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+   }
+   /* navbar */
+    #bigblock{
+        height: 70px;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        background-color: white;
+    }
+    #navblock{
+        height: 50px;
+        width: 500px;
+        /* border: 1px solid black; */
+        margin-left: 1035px;
+        display: flex;
+        margin-top: 10px;
+    }
+    .box{
+        height: 30px;
+        width: 120px;
+        /* border: 1px solid black; */
+        margin-top: 10px;
+        padding-left: 10px;
+        font-size: larger;
+    }
+    .link{
+        text-decoration: none;
+    }
+
+
+    #mainbox{
+        height: 670px;
+        width: 1530px;
+        /* border: 1px solid black; */
+        display: flex;
+    }
+
+    /* left section */
+    #leftbox{
+        height: 650px;
+        width: 600px;
+        /* border: 1px solid black; */
+        background-color:rgb(228, 208, 199);
+    }
+    #secleftbox{
+        height: 540px;
+        width: 400px;
+        /* border: 1px solid black; */
+        margin-top: 50px;
+        margin-left: 270px;
+        background-color: rgba(201, 178, 168, 0.882);
+    }
+    #circle{
+        height: 200px;
+        width: 200px;
+        /* border: 1px solid black; */
+        margin-left: 100px;
+        border-radius: 50%;
+        margin-top: 10px;
+    }
+    /* #image{
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+        border-radius: 50%;
+    } */
+    #img{
+        height: 200px;
+        width: 200px;
+        /* border: 1px solid black; */
+        border-radius: 50%;
+    }
+    #mynm{
+        height: 90px;
+        width: 130px;
+        /* border: 1px solid black; */
+        font-size: 30px;
+        margin-top: 15px;
+        margin-left: 138px;
+        word-spacing: 3px;
+        font-weight: 900;
+        padding-left: 3px;
+    }
+    #lstnm{
+        line-height: 40px;
+        padding-left: 8px;
+        padding-top: 5px;
+    }
+    #hash{
+        padding: 20px 178px;
+        /* font-weight: 900; */
+        font-weight: bolder;
+        color: blue;
+    }
+
+    #alllogos{
+        height: 50px;
+        width: 400px;
+        /* border: 1px solid black; */
+        background-color: white;
+        margin-top: 78px;
+    }
+    #logobox{
+        height: 50px;
+        width: 200px;
+        /* border: 1px solid black; */
+        display: flex;
+        margin-left: 100px;
+    }
+    .lg{
+        height: 50px;
+        width: 70px;
+        /* border: 1px solid black; */
+        font-size: xx-large;
+        color: black;
+        padding-left: 15px;
+        padding-top: 3px;
+    }
+
+    #job{
+        height: 40px;
+        width: 400px;
+        /* border: 1px solid black; */
+        margin-top: 8px;
+    }
+    #jnm{
+        padding: 5px 140px;
+        font-size: large;
+        font-weight: 800;
+    }
+
+
+    /* Right section */
+    #rightbox{
+        height: 650px;
+        width: 600px;
+        /* border: 1px solid black; */
+        margin-left: 100px;
+    }
+    #hello{
+        height: 90px;
+        width: 600px;
+        /* border: 1px solid black; */
+        margin-top: 35px;
+    }
+    #block1{
+        height: 80px;
+        width: 400px;
+        /* border: 1px solid black; */
+        font-size: 75px;
+        font-weight: bold;
+    }
+
+    #nmhere{
+        height: 40px;
+        width: 600px;
+        /* border: 1px solid black; */
+        margin-top: 18px;
+    }
+    #block2{
+        height: 35px;
+        width: 400px;
+        /* border: 1px solid black; */
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+
+    #twobox{
+        height: 35px;
+        width: 600px;
+        /* border: 1px solid black; */
+        display: flex;
+        margin-top: 20px;
+    }
+    .a{
+        text-decoration: none;
+    }
+    .boxx{
+        height: 35px;
+        width: 150px;
+        border: 1px solid black;
+        font-size: 20px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        padding-left: 25px;
+        padding-top: 4px;
+        font-weight: 550;
+    }
+    #Proj{
+        color: black;
+        margin-left: 15px;
+    }
+
+    #resudi{
+        background-color: blue;
+        color: white;
+        border: none;
+    }
+    #summary{
+        height: 350px;
+        width: 450px;
+        /* border: 1px solid black; */
+        margin-top: 18px;
+    }
+    #desc{
+        font-size: large;
+        word-spacing: 2px;
+        line-height: 30px;
+    }
+</style>
+<body>
+    <nav>
+        <div id="bigblock">
+            <div id="navblock">
+                <div id="home" class="box"><a href="./index.html" class="link" style="color: black;">HOME</a></div>
+                <div id="resume" class="box"><a href="./Resume.html" class="link" style="color: black;">RESUME</a></div>
+                <div id="projects" class="box"><a href="./Project.html" class="link" style="color: black;">PROJECTS</a></div>
+                <div id="contact" class="box"><a href="./Contact.html" class="link" style="color: black;">CONTACT</a></div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="mainbox">
+        <div id="leftbox">
+            <div id="secleftbox">
+                <div id="circle">
+                    <div id="image">
+                        <img src="./vaibhuphoto.jpg" alt="" id="img" height="200px" width="200px">
+                    </div>
+                </div>
+
+                <div id="mynm">
+                    <div>Vaibhavi</div>
+                    <div id="lstnm">Vibhute</div>
+                </div>
+
+                <div id="hash">_____</div>
+
+                <div id="job">
+                    <div id="jnm">Web Developer</div>
+                </div>
+
+                <div id="alllogos">
+                    <div id="logobox">
+                        <div class="lg"><a href="https://github.com/VaibhaviVibhute" style="color: black;"><i class="fa fa-github" aria-hidden="true"></i></a></div>
+                        <div class="lg"><a href="https://www.linkedin.com/in/vaibhavi-vibhute10/" style="color: black;"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></div>
+                        <div class="lg"><a href="mailto:vibhutevaibhav10@gmail.com" style="color: black;"><i class="fa fa-envelope" aria-hidden="true"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="rightbox">
+            <div id="hello">
+                <div id="block1">Hello!</div>
+            </div>
+
+            <div id="nmhere">
+                <div id="block2">Vaibhavi here...!!!</div>
+            </div>
+
+            <div id="twobox">
+                <a href="./Resume.html" class="a"><div id="resudi" class="boxx">My Resume</div></a>
+                <a href="./Project.html" class="a"><div id="Proj" class="boxx">My Projects</div></a> 
+            </div>
+
+            <div id="summary">
+                <p id="desc">“Hello! My name is Vaibhavi Vibhute and I am a developer specializing in web development. I have experience with a wide range of programming languages, frameworks, and tools. My portfolio showcases some of my best work, including websites and applications that I have built from Spring Boot and Web Technologies. I am passionate about creating user-friendly and visually appealing experiences that solve real-world problems. Please feel free to explore my website and check out my projects. If you have any questions or would like to work with me, don't hesitate to get in touch!”</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

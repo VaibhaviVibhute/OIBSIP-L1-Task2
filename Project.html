@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: rgb(228, 208, 199);
+        
+   }
+   /* navbar */
+    #bigblock{
+        height: 70px;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        background-color: white;
+        position: fixed;
+    }
+    #navblock{
+        height: 50px;
+        width: 500px;
+        /* border: 1px solid black; */
+        margin-left: 1035px;
+        display: flex;
+        margin-top: 10px;
+        background-color: white;
+    }
+    .box{
+        height: 30px;
+        width: 120px;
+        /* border: 1px solid black; */
+        margin-top: 10px;
+        padding-left: 10px;
+        font-size: larger;
+        background-color: white;
+    }
+    .link{
+        text-decoration: none;
+        color: black;
+        background-color: white;
+    }
+
+    /* middle box */
+    #main_midbox{
+        height: 3780px;
+        width: 800px;
+        /* border: 1px solid black; */
+        margin-left: 370px;
+    }
+    #title{
+        height: 50px;
+        width: 800px;
+        /* border: 1px solid black; */
+        display: flex;
+    }
+    #sq{
+        height: 42px;
+        width: 40px;
+        /* border: 1px solid black; */
+        font-size: 20px;
+        padding-top: 10px;
+        margin-left: 280px;
+    } */
+    #restitle{
+        height: 42px;
+        width: 200px;
+        /* border: 1px solid black; */
+        font-size: 40px;
+    }
+
+
+    #des{
+        height: 100px;
+        width: 700px;
+        /* border: 1px solid black; */
+        font-size: 19px;
+        word-spacing: 2px;
+        line-height: 25px;
+        margin-left: 50px;
+        margin-top: 100px;
+        
+    }
+    #p1{
+        padding-left: 12px;
+    }
+    #p2{
+        padding-left: 12px;
+    }
+    #p3{
+        padding-left: 150px;
+    }
+
+
+
+    .Proj{
+        height: 380px;
+        width: 800px;
+        /* border: 1px solid black; */
+        margin-top:70px;
+        display: flex;
+        background-color: white;
+    }
+    #leftside{
+        height: 380px;
+        width: 450px;
+        /* border: 1px solid black; */
+        background-color: white;
+    }
+    #rightside{
+        height: 380px;
+        width: 350px;
+        /* border: 1px solid black; */
+        background-color: white;
+    }
+    #protitle{
+        height: 45px;
+        width: 450px;
+        /* border: 1px solid black; */
+        background-color: white;
+        display: flex;
+    }
+    .line{
+        height: 45px;
+        width: 12px;
+        /* border: 1px solid black; */
+        background-color: blue;
+    }
+    .nm{
+        font-size: 22px;
+        font-weight: 800;
+        padding-top: 8px;
+        padding-left: 20px;
+        color: blue;
+        background-color: white;
+    }
+    .disc{
+        height: 335px;
+        width: 388px;
+        /* border: 1px solid black; */
+        margin-left: 36px;
+        font-size: 18px;
+        line-height: 25px;
+        word-spacing: 3px;
+        background-color: white;
+    }
+    #disc1{
+        padding-top: 12px;
+    }
+    #disc2{
+        letter-spacing: 1px;
+        padding-top: 15px;
+    }
+    #disc3{
+        padding-top: 15px;
+        letter-spacing: 1px;
+    }
+    #disc4{
+        padding-top: 15px;
+        letter-spacing: 1px;
+    }
+    #disc5{
+        padding-top: 19px;
+        letter-spacing: 1px;
+    }
+    #disc6{
+        padding-top: 19px;
+        letter-spacing: 1px;
+    }
+    .view{
+        height: 50px;
+        width: 130px;
+        /* border: 1px solid black; */
+        color: white;
+        background-color: black;
+        font-size: 20px;
+        font-weight: 600;
+        padding-left: 25px;
+        padding-top: 12px;
+        text-decoration: none;
+    }
+    #view1{
+        margin-top: 20px;
+    }
+    #view2{
+        margin-top: 65px;
+    }
+    #view3{
+        margin-top: 40px;
+    }
+    #view4{
+        margin-top: 78px;
+    }
+    #view5{
+        margin-top: 90px;
+    }
+    #view6{
+        margin-top: 72px;
+    }
+    #img{
+        height: 380px;
+        width: 350px;
+    }
+    .info{
+        background-color: white;
+    }
+    .a{
+        text-decoration: none;
+    }
+
+
+/* Tools used */
+    #certi{
+        height: 50px;
+        width: 800px;
+        /* border: 1px solid black; */
+        display: flex;
+        margin-top: 135px;
+    }
+    #certititle{
+        height: 40px;
+        width: 500px;
+        /* border: 1px solid black; */
+        font-size: 36px;
+        font-weight: 700;
+    }
+    #certi_box{
+        height: 300px;
+        width: 700px;
+        /* border: 1px solid black; */
+        margin-top: 10px;
+        margin-left: 50px;
+        background-color: white;
+    }
+
+    #tool_body{
+        height: 600px;
+        width: 800px;
+        /* border: 1px solid black; */
+        display: flex;
+        margin-top: 50px;
+    }
+    .block{
+        height: 600px;
+        width: 200px;
+        /* border: 1px solid black; */
+    }
+
+    .boxes{
+        height: 200px;
+        width: 200px;
+        /* border: 1px solid black; */
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    /* #boxes1{
+        background-image: url(./Java.jpg);
+    } */
+
+</style>
+<body>
+     <!-- Navbar -->
+     <nav>
+        <div id="bigblock">
+            <div id="navblock">
+                <div id="home" class="box"><a href="./index.html" class="link">HOME</a></div>
+                <div id="resume" class="box"><a href="./Resume.html" class="link">RESUME</a></div>
+                <div id="projects" class="box"><a href="./Project.html" class="link">PROJECTS</a></div>
+                <div id="contact" class="box"><a href="./Contact.html" class="link">CONTACT</a></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- middle box -->
+    <div id="main_midbox">
+        <div id="title">
+            <div id="sq" class="t1"><i class="fa fa-square" aria-hidden="true"></i></div>
+            <div id="restitle" class="t1">My Work</div>
+        </div>
+
+
+        <div id="des">
+            <p id="p1">Welcome to my portfolio! Here you can find a showcase of some of my best projects.</p>
+            <p id="p2">From design to development, each project has been a unique and exciting challenge.</p> 
+            <p id="p3">Click on the the View Me to see a website.</p>
+        </div>
+
+
+        <div id="Proj1" class="Proj">
+            <div id="leftside">
+                <div id="protitle">
+                    <div class="line"></div>
+                    <div class="nm">Cloning Razer Website</div>
+                </div>
+                <div id="disc1" class="disc">
+                    <p class="info">I successfully cloned the Razer webpage built using Html and CSS .It is hosted using GitHub and Netlify also.
+                    I meticulously studied the layout and design elements of the original Razer website, aiming to recreate its visual appearance and user experience as accurately as possible. By utilizing my expertise in HTML and CSS, I was able to replicate the structure, color scheme, typography, and overall style of the Razer webpage.</p>
+                    <a href="https://vaibhavivibhute.github.io/Cloning-Razer-Laptop-site/" class="a"><div id="view1" class="view">View Me</div></a>
+                </div>
+                
+            </div>
+            <div id="rightside">
+                 <img src="./Razer.png" alt="" id="img">
+            </div>
+        </div>
+
+
+        <div id="Proj2" class="Proj">
+            <div id="leftside">
+                <div id="protitle">
+                    <div class="line"></div>
+                    <div class="nm">Cloning Adobe Reader Website</div>
+                </div>
+                <div id="disc2" class="disc">
+                    <p class="info">In this project I tried to make an replica of Adobe website, for that I studied the architecture of Adobe website in detail. In this there are so many image blocks and I learn to maintain that because if any cause is happened images overlapped on another. It is built using Html and CSS.                    </p>
+                    <a href="https://vaibhavi-vibhute-clone-adobereader.netlify.app/" class="a"><div id="view2" class="view">View Me</div></a>
+                </div>
+            </div>
+            <div id="rightside">
+                 <img src="./Adobe.png" alt="" id="img">
+            </div>
+        </div>
+
+
+        <div id="Proj3" class="Proj">
+            <div id="leftside">
+                <div id="protitle">
+                    <div class="line"></div>
+                    <div class="nm">Mobile Calculator</div>
+                </div>
+                <div id="disc3" class="disc">
+                    <p class="info">This Calculator can perform basic operations like Addition, Subtraction, Multiplication, Division. It will perform decimal operations.
+                        The calculator also display infinity if you try to divide any number by zero. Clear screen feature to clear the display screen any time you want. All operation logic is define using JavaScript.</p>
+                    <a href="https://vaibhavivibhute.github.io/Calculator/" class="a"><div id="view3" class="view">View Me</div></a>
+                </div>
+            </div>
+            <div id="rightside">
+                 <img src="./calci.png" alt="" id="img">
+            </div>
+        </div>
+
+
+        <div id="Proj4" class="Proj">
+            <div id="leftside">
+                <div id="protitle">
+                    <div class="line"></div>
+                    <div class="nm">Indian-Team Template</div>
+                </div>
+                <div id="disc4" class="disc">
+                    <p class="info">It's a Template contains the information about few players, information like count of matches that they played before including Test, ODI, T20s match.
+
+                        This template is structured by using html and beautify by flex model, hover effects and many more..</p>
+                        <a href="https://vaibhavi-vibhute-indianteam-template.netlify.app/" class="a"><div id="view4" class="view">View Me</div></a>
+                </div>
+            </div>
+            <div id="rightside">
+                 <img src="./Indian Template.png" alt="" id="img">
+            </div>
+        </div>
+
+
+        <div id="Proj5" class="Proj">
+            <div id="leftside">
+                <div id="protitle">
+                    <div class="line"></div>
+                    <div class="nm">Musical World of India</div>
+                </div>
+                <div id="disc5" class="disc">
+                    <p class="info">This project is about the information of Indian Music along with Culture of India, Musical Instruments & there types, Famous Musicians who are awarded & Indian Music industry elated by there presence.</p>
+                    <a href="https://vaibhavivibhute.github.io/Musical-World-of-India/" class="a"> <div id="view5" class="view">View Me</div></a>
+                </div>
+            </div>
+            <div id="rightside">
+                 <img src="./music.png" alt="" id="img">
+            </div>
+        </div>
+
+
+        <div id="Proj6" class="Proj">
+            <div id="leftside">
+                <div id="protitle">
+                    <div class="line"></div>
+                    <div class="nm">Student Management System</div>
+                </div>
+                <div id="disc6" class="disc">
+                    <p class="info"> Spring Boot <br> It’s a Spring-Based software application which is capable of storing and managing student data along with application page where users can login, add, update and delete, the record.</p>
+                    <a href="https://github.com/VaibhaviVibhute/Student-Management-system-SpringBoot" class="a"> <div id="view6" class="view">View Me</div></a>
+                </div>
+            </div>
+            <div id="rightside">
+                 <img src="./student.avif" alt="" id="img">
+            </div>
+        </div>
+
+
+        <!-- Tools Used -->
+        <div id="certi">
+            <div id="certititle">Tools and Technologies</div>
+        </div>
+
+        <div id="tool_body">
+            <div class="block" id="b1">
+                <div class="boxes" id="boxes1"><img src="./Java.jpg" alt="" height="130px" width="130px"> </div>
+                <div class="boxes" id="boxes2" ><img src="./database.png" alt="" height="130px" width="130px"></div>
+                <div class="boxes" id="boxes3"><img src="./postman1.png" alt="" height="150px" width="150px"></div>
+            </div>
+            <div class="block" id="b2">
+                <div class="boxes" id="boxes4"><img src="./html.png" alt="" height="130px" width="130px"></div>
+                <div class="boxes" id="boxes5"><img src="./eclipse5466.jpg" height="130px" width="130px"></div>
+                <div class="boxes" id="boxes6"><img src="./GitHub-Mark.png" alt="" height="130px" width="130px"></div>
+            </div>
+            <div class="block" id="b3">
+                <div class="boxes" id="boxes7"><img src="./CSS.png" alt=""height="130px" width="130px"></div>
+                <div class="boxes" id="boxes8"><img src="./Spring.png" alt="" height="130px" width="130px"></div>
+                <div class="boxes" id="boxes9"><img src="./MYSQL workbench.jpg" alt=""height="130px" width="130px"></div>
+            </div>
+            <div class="block" id="b4">
+                <div class="boxes" id="boxes10"><img src="./JS.png" alt="" height="130px" width="130px"></div>
+                <div class="boxes" id="boxes11"><img src="./Visual Studio.png" alt="" height="130px" width="180px"></div>
+                <div class="boxes" id="boxes12"><img src="./terminal-1-logo-png-transparent.png" alt="" height="130px" width="130px"></div>
+            </div>
+        </div>
+        
+    </div> 
+</body>
+</html>
